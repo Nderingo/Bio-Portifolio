@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Nderingo/Bio-Portifolio/static/css/main.073c9b0a.css",
+    "main.js": "/Nderingo/Bio-Portifolio/static/js/main.7fb911dd.js",
+    "static/js/787.e5f56525.chunk.js": "/Nderingo/Bio-Portifolio/static/js/787.e5f56525.chunk.js",
+    "static/media/logo.svg": "/Nderingo/Bio-Portifolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Nderingo/Bio-Portifolio/index.html",
+    "main.073c9b0a.css.map": "/Nderingo/Bio-Portifolio/static/css/main.073c9b0a.css.map",
+    "main.7fb911dd.js.map": "/Nderingo/Bio-Portifolio/static/js/main.7fb911dd.js.map",
+    "787.e5f56525.chunk.js.map": "/Nderingo/Bio-Portifolio/static/js/787.e5f56525.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7fb911dd.js"
+  ]
+}
