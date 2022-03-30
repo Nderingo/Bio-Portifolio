@@ -2,22 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // Sets the page on current page
+  const [currentPage, setCurrentPage] = useState('About Me');
+
+  console.log(document.location);
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <CurrentPage currentPage={currentPage}/>
+      <Footer />
     </div>
   );
 }
