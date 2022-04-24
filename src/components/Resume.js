@@ -1,7 +1,7 @@
 import React from "react";
-import Resume from "../images/Emmanuel FullStack CV PDF.pdf";
+// import Resume from "../images/Emmanuel FullStack CV PDF.pdf";
 
-function CV() {
+function Resume() {
   return (
     <section id="CV" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto">

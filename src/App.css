@@ -24,6 +24,13 @@
   color: white;
 }
 
+.rounded-lg {
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
 .App-link {
   color: #61dafb;
 }

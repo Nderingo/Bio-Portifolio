@@ -3,7 +3,7 @@ import React from "react";
 
 // We declare an object called styles that will contain a few objects for card and heading styles
 // Notice that each key lists CSS styles in camel case
-function Navbar() {
+function Nav() {
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -35,4 +35,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Nav;
