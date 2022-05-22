@@ -6,6 +6,8 @@ import FunTime from "../images/Don't get bored.png.png";
 import Scheduler from "../images/daily-scheduler (2).png";
 import PasswordGenerator from "../images/password-generator.png.png";
 import GameRec from '../images/gameRec.png.png';
+import BookSearch from '../images/BookSearch.png';
+import NOTED from '../images/NOTED.png'
 
 const sampleProjects = [
     {
@@ -48,6 +50,26 @@ const sampleProjects = [
     repo: "REPO",
     repoURL: "https://github.com/chriskimball/gameRec",
     },
+
+    {
+      id: 5,
+  title: "gameRec",
+  imagePath: BookSearch,
+  page: "LIVE",
+  pageURL: "https://book-searched.herokuapp.com/",
+  repo: "REPO",
+  repoURL: "https://github.com/Nderingo/BOOK-SEARCH-ENGINE",
+  },
+
+  {
+    id: 6,
+title: "gameRec",
+imagePath: NOTED,
+page: "LIVE",
+pageURL: "https://notedy.herokuapp.com/notes",
+repo: "REPO",
+repoURL: "https://github.com/Nderingo/NOTED",
+},
 ];
 
 export default function Projects() {
