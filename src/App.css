@@ -5,7 +5,7 @@
   background-color: lightblue;
 }
 
-.navbar {
+/* .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
@@ -22,6 +22,118 @@
 }
 .navbar a:hover {
   color: blue;
+} */
+
+.nav-main {
+  color: white;
+  margin: 20px;
+}
+
+.nav-main a {
+  text-decoration: none;
+}
+
+.nav-main a:hover {
+  text-decoration: underline;
+}
+
+.nav-main a:active {
+  text-decoration: none;
+}
+
+.nav-main h1 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+.nav-main h4 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+  color: slategray;
+  margin: 0px 15px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: right;
+}
+
+.nav-main h4:active {
+  color: white;
+}
+
+.nav-menu {
+  margin-left: -15px;
+  /* margin: 0px 20px; */
+  display: flex;
+}
+
+.about-container {
+  color: white;
+  margin: 50px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.tools-container {
+  /* display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; */
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.tools-container h1 {
+  margin: 5px 10px;
+}
+
+/* .samples-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 50px;
+} */
+
+.card {
+  background-color: transparent;
+}
+
+.card-body {
+  background-color: white;
+}
+
+.card-footer {
+  background-color: white;
+}
+
+.sample-card a {
+  font-weight: bold;
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.contact-container p {
+  color: white;
+}
+
+.contact-form {
+  background-color: slategray;
 }
 
 .footer-container {
@@ -29,7 +141,6 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-
 }
 
 .footer-container a {
@@ -44,4 +155,26 @@
 
 .footer-container a:active {
   color: white;
+}
+
+.selected-view {
+  color: white !important;
+}
+
+@media all and (max-width: 1200px) {
+  .tools-container {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+@media all and (max-width: 800px) {
+  .about-container {
+    flex-direction: column-reverse;
+  }
+  .portfolio-picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
 }
