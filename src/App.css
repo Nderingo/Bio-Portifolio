@@ -2,27 +2,9 @@
 
 
 * body{
-  background-color: lightblue;
+  background-color: rgb(39, 188, 237);
 }
 
-/* .navbar {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
-  font-weight: bolder;
-}
-
-.navbar a {
-  margin-left: 16px;
-  text-decoration: none;
-  padding: 6px;
-}
-.navbar a:hover {
-  color: blue;
-} */
 
 .nav-main {
   color: white;
@@ -63,7 +45,6 @@
 
 .nav-menu {
   margin-left: -15px;
-  /* margin: 0px 20px; */
   display: flex;
 }
 
@@ -164,9 +145,11 @@
     flex-direction: column-reverse;
   }
   .portfolio-picture {
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    border-radius: 100%;
+    
   }
 }

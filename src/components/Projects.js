@@ -53,7 +53,7 @@ const sampleProjects = [
 
     {
       id: 5,
-  title: "gameRec",
+  title: "Book Search",
   imagePath: BookSearch,
   page: "LIVE",
   pageURL: "https://book-searched.herokuapp.com/",
@@ -63,7 +63,7 @@ const sampleProjects = [
 
   {
     id: 6,
-title: "gameRec",
+title: "Note Taker",
 imagePath: NOTED,
 page: "LIVE",
 pageURL: "https://notedy.herokuapp.com/notes",

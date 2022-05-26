@@ -1,37 +1,27 @@
 
 
 
-// We declare an object called styles that will contain a few objects for card and heading styles
-// Notice that each key lists CSS styles in camel case
+import React from 'react'
 
-const Nav = () => {
+export default function Nav({ view, setView }) {
   return (
-    <header className="love-coding">
-      <div className="links">
-        <nav className="navbar">
-        <a href="#about" className="mr-5 hover:text-white">
-            Home
+    <section className='nav-main'>
+        <h1>Emmanuel Lyimo</h1>
+        <div className='nav-menu'>
+          <a href='#about' onClick={() => setView('about')}>
+            { view === "about" ? ( <h4 className='selected-view'>about</h4> ) : ( <h4>about</h4> ) }
           </a>
-          <a href="#Projects" className="mr-5 hover:text-white">
-            Projects
+          <a href='#work' onClick={() => setView('work')}>
+            { view === "work" ? ( <h4 className='selected-view'>work</h4> ) : ( <h4>work</h4> ) }
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Skills
+          <a href="https://drive.google.com/file/d/1MEYN1a2HQp9i5H9hOEgbEBIaHD7J32v4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <h4>resume</h4>
           </a>
-          <a href="#CV" className="mr-5 hover:text-white">
-            Curriculum Vitae
+          <a href='#contact' onClick={() => setView('contact')}>
+            { view === "contact" ? ( <h4 className='selected-view'>contact</h4> ) : ( <h4>contact</h4> ) }
           </a>
-          <a
-          href="#footer"
-        >
-          Let's Connect!
-        </a>
-        </nav>
+        </div>
         
-      </div>
-    </header>
-  );
+    </section>
+  )
 }
-
-export default Nav;
-
