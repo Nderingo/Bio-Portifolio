@@ -78,9 +78,7 @@
 }
 
 .tools-container {
-  /* display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around; */
+  
   display: grid;
   grid-template-columns: repeat(6, auto);
   gap: 30px;
@@ -93,12 +91,6 @@
   margin: 5px 10px;
 }
 
-/* .samples-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin-top: 50px;
-} */
 
 .card {
   background-color: transparent;
