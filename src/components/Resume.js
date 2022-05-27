@@ -1,5 +1,5 @@
 import React from "react";
-// import Resume from "../images/Emmanuel FullStack CV PDF.pdf";
+import Resume from "../images/Emmanuel FullStack CV PDF.pdf";
 
 function Resume() {
   return (

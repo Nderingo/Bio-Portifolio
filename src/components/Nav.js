@@ -14,7 +14,7 @@ export default function Nav({ view, setView }) {
           <a href='#work' onClick={() => setView('work')}>
             { view === "work" ? ( <h4 className='selected-view'>work</h4> ) : ( <h4>work</h4> ) }
           </a>
-          <a href="https://drive.google.com/file/d/1MEYN1a2HQp9i5H9hOEgbEBIaHD7J32v4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://docs.google.com/file/d/16T7r1CP8a1tOtByiyt2_EQI1-YpTwOirrwBEDTe-Oxs/edit?usp=sharing">
             <h4>resume</h4>
           </a>
           <a href='#contact' onClick={() => setView('contact')}>
